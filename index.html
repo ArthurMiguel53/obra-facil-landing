@@ -1,5 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <!-- Your (clean) code here! -->
+<html lang="en">
+<head>
 
+    <!--qual é o formato de codificação de caracteres utilizado naquele documento-->
+    <meta charset="UTF-8">
+
+    <!--driblar os probolemas do internet explorer-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Arthur">
+    <meta name="description" content="Landing page conmsytruída pelos alunos do Instituto evoluir">
+
+    <!--responsividade da página-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <link rel="shortcut icon" href="C:\Users\vivil\OneDrive\Área de Trabalho\landing page 1 aula\img">
+
+
+    <!--style sheets css ou seja estilo do site-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../script/script.js">
+
+</head>
+<body>
+    <!-- Cabeçalho-->
+    <header>
+        <div class="logo">
+            <img src="C:\Users\vivil\OneDrive\Área de Trabalho\obra-facil-landing\images\logo.png" alt="logo png">
+        </div>
+
+        <div class="social">
+            <div>
+                <a href="#" title="Youtube" class="Youtube_button"></a>
+                <a href="#" title="Twitter" class="Twitter_button"></a>
+                <a href="#" title="Facebook" class="Facebook_button"></a>
+            </div>
+            <div id="siga-conectado">Siga conectado</div>
+        </div>
+
+    </header>
+    <!--Conteúdo principal-->
+    <main>
+        <div class="content" style="display: flex; align-items: center; justify-content: center; width: 100%; margin: auto auto;">
+            <div class="video-area">
+                <h2>Teu Lar Reformado, energia renovada</h2>
+                <p class="subtitle">somos grandes reformdores</p>
+
+                <iframe width="560" height="375"src="https://www.youtube.com/watch?v=huBwVg5piJQ" frameborder="30"></iframe>
+            </div>
+            <div class="form-area" style="background-color: rgb(255, 240, 240); width: 300px; margin-top: 0px;">
+                <h2>OBRAS FÀCEIS E BARATAS</h2>
+                    <form name="lead" action="#" method="post">
+                    <input type="text" name="name" placeholder="Seu Nome Completo Aqui" minlength="3">
+                    <input type="tel" name="name" placeholder="Seu Número de telefone" minlength="8">
+                    <input type="email" name="name" placeholder="Seu E-mail">
+                    <button id="submit-button">Fale Conosco!</button>
+                </form>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!--rodapé da página-->
+    <footer class="foot">
+        <div class="content-foot">
+            <p>Obs.:entraremos em contato em até 24 horas</p>
+            <span class="content-foot">Instituto Evoluir copyright 2023</span>
+        </div>
+    </footer>
+</body>
 </html>
